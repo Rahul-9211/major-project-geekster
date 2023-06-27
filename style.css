@@ -1,0 +1,138 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(73, 73, 73); */
+    background: transparent;
+    padding: 15px 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav__list {
+    display: flex;
+    /* justify-content: start; */
+}
+
+.nav__menu {
+    display: flex;
+}
+
+#logo {
+    font-weight: 600;
+}
+
+.nav__list li {
+    list-style: none;
+    margin: 0 18px;
+
+}
+
+#home {
+    /* text-decoration: underline; */
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.nav__list li a {
+    /* text-decoration: none; */
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+#theme-button {
+    color: white;
+}
+
+.home_img {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    margin-top: -53px;
+}
+
+.home_container {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding-top: 110px;
+}
+
+.home_data-subtitle {
+    margin: 0 0 10px 25px;
+    font-size: 20px;
+}
+
+.home_data-title {
+    font-size: 65px;
+    font-weight: 100;
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+
+.home_container .button {
+    padding: 18px 32px;
+    margin-left: 20px;
+    background-color: #14505c;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    /* transition: all .5s; */
+}
+
+.home_container .button:hover {
+    background-color: #113c45;
+}
+
+
+.home_info {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    width: 270px;
+    right: 1%;
+    background-color: #14505c;
+    padding: 12px 8px;
+}
+
+.home_info-overlay img {
+    width: 150px;
+}
+
+.home_info_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home_info-title {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
