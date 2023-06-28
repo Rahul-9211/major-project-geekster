@@ -25,6 +25,7 @@ html {
     margin: auto;
 }
 
+/* ---------------------  HEADER PART  ---------------------------- */
 .header {
     max-width: 1024px;
     margin: auto;
@@ -63,10 +64,12 @@ html {
 .nav__list li {
     list-style: none;
     margin: 0 18px;
-    padding: 0  12px ;
+    padding: 0 12px;
 
 }
 
+
+/* ------------------- HOME SECTION  -------------------*/
 #home {
     /* text-decoration: underline; */
     padding-bottom: 8px;
@@ -113,10 +116,11 @@ html {
     padding-top: 10px;
 }
 
-.home_data-title b{
+.home_data-title b {
     font-weight: 800;
     font-family: 'Raleway', sans-serif;
 }
+
 .home_container .button {
     padding: 16px 32px;
     /* margin-left: 20px; */
@@ -132,23 +136,24 @@ html {
     background-color: #113c45;
 }
 
-.floatContainer{
+.floatContainer {
     display: flex;
     justify-content: end;
 }
+
 .home__social {
     display: flex;
     flex-direction: row;
     align-self: flex-end;
     column-gap: 2.5rem;
-  } 
-  
-  .home__social-link {
+}
+
+.home__social-link {
     font-size: 1.2rem;
     width: max-content;
     color: white;
     text-decoration: none;
-  }
+}
 
 .home_info {
     color: white;
@@ -161,21 +166,22 @@ html {
     padding: 1.5rem 1rem;
 }
 
-.home_info-overlay{
+.home_info-overlay {
     width: 170px;
     overflow: hidden;
 }
 
-.home_info-overlay img{
+.home_info-overlay img {
     width: 100%;
     height: 100%;
     transition: transform .1s ease;
     cursor: pointer;
 }
 
-.home_info-overlay img:hover{
+.home_info-overlay img:hover {
     transform: scale(1.2);
 }
+
 .home_info_content {
     display: flex;
     flex-direction: column;
@@ -184,19 +190,165 @@ html {
     font-size: .9rem;
 }
 
-.home_info_content a{
+.home_info_content a {
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
-.home_info_content a i{
+.home_info_content a i {
     padding-left: 8px;
 }
+
 .home_info-title {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     /* padding-right: 12px; */
     margin-bottom: 8px;
+}
+
+/* ---------------------------=- ABOUT SECTION  ------------------------------- */
+.about_section {
+    padding: 200px 0;
+}
+
+.about_container {
+    display: flex;
+
+}
+
+.about_data {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+ .about_title {
+    color: #14505c;
+}
+/* global class for heading of secction  */
+.section_title{
+    color: #14505c;
+    text-align: center;
+}
+
+.about_data .about_description {
+    color: #1d5c69;
+    padding: 30px 0;
+    font-size: 17px;
+    font-weight: 500;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.about_data .button {
+    padding: 16px 32px;
+    /* margin-left: 20px; */
+    background-color: #14505c;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    width: 200px;
+    font-weight: 500;
+    transition: all .5s;
+}
+
+.about_img {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about_image-overlay {}
+
+.about_img-one {
+    width: 195px;
+}
+
+.about_img-two {
+    width: 250px;
+}
+
+.about_image-overlay {
+    overflow: hidden;
+}
+
+
+.about_image-overlay img{
+    transition: transform .1s ease;
+}
+.about_img-one:hover,
+.about_img-two:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/*------------ EXPERIENCE SECTION =----------- */
+.experience_section{
+    padding: 0 0 200px 0;
+}
+.experience_content{
+    display: flex;
+    /* text-align: center; */
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 0 ;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.experience_data{
+    padding: 0 20px;
+}
+.experience_number{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 7px;
+    color: #14505c;
+}
+.experience_description{
+    font-size: 14px;
+    color: #14505c;
+}
+.experience_img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience_img .experience_image-overlay{
+}
+.experience_image-overlay{
+    position: relative;
+}
+.experience_img .experience_image-overlay .experience_img-one{
+    width: 100%;
+    width: 434px;
+}
+.experience_img .experience_image-overlay .experience_img-two{
+    width: 250px;
+    position: absolute;
+    top: -235px;
+    left: 101px;
+}
+.video_description{
+    font-size: 14px;
+    padding-top: 10px;
+    color: #14505c;
+    text-align: center;
+}
+.video_content{
+    width: 100%;
+    padding-top: 42px;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.video-file{
+    margin: auto;
+    width: 80%;
 }
