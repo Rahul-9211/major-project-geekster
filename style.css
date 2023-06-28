@@ -161,10 +161,21 @@ html {
     padding: 1.5rem 1rem;
 }
 
-.home_info-overlay img {
+.home_info-overlay{
     width: 170px;
+    overflow: hidden;
 }
 
+.home_info-overlay img{
+    width: 100%;
+    height: 100%;
+    transition: transform .1s ease;
+    cursor: pointer;
+}
+
+.home_info-overlay img:hover{
+    transform: scale(1.2);
+}
 .home_info_content {
     display: flex;
     flex-direction: column;
@@ -186,6 +197,6 @@ html {
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
-    padding-right: 12px;
+    /* padding-right: 12px; */
     margin-bottom: 8px;
 }
