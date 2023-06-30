@@ -333,6 +333,9 @@ html {
     top: -235px;
     left: 101px;
 }
+
+
+/* VIDEO SECTION  */
 .video_description{
     font-size: 14px;
     padding-top: 10px;
@@ -342,7 +345,7 @@ html {
 .video_content{
     width: 100%;
     padding-top: 42px;
-    
+position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -351,4 +354,70 @@ html {
 .video-file{
     margin: auto;
     width: 80%;
+}
+.video_section{
+    padding-bottom: 100px;
+}
+
+.video_button{
+    position: absolute;
+    background-color: #14505c;
+    padding: 20px 26px;
+    right: 15%;
+    bottom: -10%;
+}
+.video_button-icon{
+    background-color: #14505c;
+    color: white;
+    font-size: 24px;
+}
+
+.sponser_section{
+    padding: 100px 0;
+}
+.sponser_container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sponser_img{
+    width: 80px;
+    filter: invert(0.5);
+}
+
+
+/* Footer  */
+.footer_section{
+    padding: 100px 0;
+}
+
+.footer_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer_data{
+    flex-basis: 25%;
+    color: #14505c;
+}
+.footer_title{
+    padding: 10px 0 ;
+}
+.footer_item{
+    list-style: none;
+}
+
+.footer_link{
+    text-decoration: none;
+    color: #14505c;
+}
+.footer_social_icon{
+    padding: 10px 0 ;
+}
+.footer_social{
+    text-decoration: none;
+    color: #14505c;
+    font-size: 25px;
+    padding: 5px 5px;
+    padding-left: 0;
 }
